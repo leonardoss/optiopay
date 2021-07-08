@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing App App renders correctly 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    Optio Pay - Frontend engineer technical test
+  </h1>
+  <br />
+  <div
+    className="form-control"
+  >
+    <label
+      className="form-label"
+      htmlFor="toRoman"
+    >
+      Convert to roman
+    </label>
+    <div
+      className="form-control-internal"
+    >
+      <input
+        className="input-text"
+        name="toRoman"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        placeholder="Enter any integer"
+        type="number"
+        value=""
+      />
+      <button
+        className="btn"
+        onClick={[Function]}
+      >
+        Convert to Roman
+      </button>
+    </div>
+    
+  </div>
+  <div
+    className="form-control"
+  >
+    <label
+      className="form-label"
+      htmlFor="fromRoman"
+    >
+      Convert to integer
+    </label>
+    <div
+      className="form-control-internal"
+    >
+      <input
+        className="input-text"
+        name="fromRoman"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        placeholder="Enter a valid Roman"
+        type="text"
+        value=""
+      />
+      <button
+        className="btn"
+        onClick={[Function]}
+      >
+        Convert to Integer
+      </button>
+    </div>
+  </div>
+</div>
+`;

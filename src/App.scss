@@ -1,0 +1,52 @@
+.App {
+  margin: auto;
+  max-width: 600px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.btn {
+  background: #27343c;
+  border: none;
+  display: block;
+  height: 60px;
+  padding: 0 40px;
+  color: #fff;
+  font-size: 20px;
+}
+input[class^='input-'] {
+  height: 60px;
+  width: 300px;
+  font-size: 20px;
+  padding: 0 0 0 10px;
+  border: 1px solid #ccc;
+}
+
+.form-control {
+  margin-bottom: 30px;
+  .form-control-internal {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+.form-label {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+.result {
+  padding: 0 20px 0 20px;
+  font-size: 40px;
+  height: 60px;
+  line-height: 60px;
+  background: #000;
+  color: yellow;
+  display: inline-block;
+  margin-top: 12px;
+}
+.error {
+  color: red;
+}
